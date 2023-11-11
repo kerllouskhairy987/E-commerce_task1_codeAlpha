@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+
+    <!-- LINK STYLE.CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- LINK BOOTSTRAP -->
+    <link rel="stylesheet" href="css/bondi.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css.map">
+    <!-- LINK ICONS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- FONT FAMILY -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Patua+One&family=Roboto&family=Titillium+Web:wght@200;300;400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="header">
+            <div class="list" onclick="toggleClass()">
+                <i class='icon_list bx bx-align-left'></i>
+            </div>
+            <div class="costy">
+                <a class="gradient" href="index.html">COSTY</a>
+            </div>
+            <div class="links">
+                <nav>
+                    <a onclick="removeClass() , drawWoman()" class="gradient" href="#main">Woman</a>
+                    <a onclick="removeClass() , drawMan()" class="gradient" href="#main">Man</a>
+                    <a onclick="removeClass() , drawKids()" class="gradient" href="#main">Kids</a>
+                    <a onclick="removeClass() , drawAccessories()" class="gradient last" href="#main">Accessories</a>
+                </nav>
+            </div>
+            <div class="counter_icon">
+                <a href="products.html"><i class='bx bx-shopping-bag' ></i></a>
+                <span class="counter text-light"></span>
+            </div>
+        </div>
+    </header>
+    <!-- MAIN(HOME SECTION) -->
+    <main>
+        <div class="home">
+            <img class="h-100" src="images/BGHome.png" alt="home img">
+            <img class="star" src="images/moon Img.png" alt="">
+            <p class="gradient">COLORING STYLE</p>
+        </div>
+    </main>
+    <!-- SECTION DISCOVER PRODUCTS -->
+    <section>
+        <div class="woman_product">
+            <p class="gradient" id="main">DISCOVER PRODUCT</p>
+            <div class="point">
+                <span></span>
+            </div>
+            <div class="product">
+                <div class="product_item">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer row gradient" style="margin: auto;">
+            <div class="left p-0 col-md-6 col-sm-12">
+                <a class="gradient" href="index.html">COSTY</a>
+
+                <Div class="footer_icon">
+                    <a href="https://www.facebook.com/profile.php?id=100069349486598"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-whatsapp'></i></a>
+                    <a href="https://www.linkedin.com/in/kerolos-khairy-a6673625a/"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/kerllouskhairy987?tab=repositories"><i class='bx bxl-github'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                </Div>
+            </div>
+
+
+            <div class="right p-0 col-md-6 col-sm-12">
+                <div class="row p-0 m-0">
+                    <div class="right_info p-0 col-sm-6 col-12 " >
+                        <h4>HELP</h4>
+                        <p>CONTACT US</p>
+                        <p>FAQ</p>
+                        <p>SHIPMENT</p>
+                        <p>PAYMENT</p>
+                        <p>TRACK YOUR ORDER</p>
+                        <p>RETURN YOUR ORDER</p>
+                    </div>
+
+                    <div class="left_info p-0 col-sm-6 col-12">
+                        <h4>LEGAL INFO</h4>
+                        <p>PRIVACY POLICY</p>
+                        <p>TERMS & CONDITION</p>
+                        <p>RETURN POLICY</p>
+                        <p>COMUNITY</p>
+                        <p>GET CARD</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <p class="text-center text-light pb-3 m-0">KEROLOS KHAIRY</p>
+    </footer>
+
+
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
